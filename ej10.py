@@ -71,6 +71,6 @@ if __name__ == '__main__':
     collision_id = input("Introduce el collision_id del accidente que deseas consultar: ")
     consultar_campo("final.collision_crashes_final", "collision_id", collision_id)
     consultar_campo("final.collision_vehicles_final", "collision_id", collision_id)
-    consultar_campo("final.collision_crashes_final", "collision_id", collision_id)
+    consultar_campo("final.collision_persons_final", "collision_id", collision_id)
 
     print("Fin del programa")
